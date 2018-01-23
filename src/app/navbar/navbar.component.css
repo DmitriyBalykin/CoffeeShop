@@ -1,0 +1,10 @@
+.container {
+    vertical-align: top;
+    background: lightseagreen;
+}
+
+.login {
+    left: auto;
+    right: 0;
+    padding: 5px;
+}

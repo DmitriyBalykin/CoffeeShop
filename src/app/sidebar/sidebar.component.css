@@ -1,0 +1,28 @@
+.container {
+    float: left;
+    background: mediumslateblue;
+    height: 100%;
+
+}
+
+.btn-group a {
+    background-color: palegreen;
+    border: 1px solid green;
+    color: brown;
+    padding:  10px 24px;
+    cursor: pointer;
+    display: block;
+}
+
+.btn-group a:not(:last-child) {
+    border-bottom: none;
+}
+
+.btn-group a:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+.title {
+    padding: 10px;
+}
