@@ -1,3 +1,31 @@
-html, body {
-    overflow: auto;
-}
+body, html{
+    height:100%;
+  }
+  .red{
+    background: red;
+  }
+  .theheader{
+    height: 50px;
+    background: lightseagreen;
+  }
+  .thecontainer{
+    height:100%;
+  }
+  .h100{
+    height: calc(100% - 50px);
+  }
+  .leftbar{
+    background: green;
+    height:100%;
+  }
+  .rightbar{
+    height:100%;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  [class^="col"] {
+    padding-left: 0;
+    padding-right: 0;
+  }

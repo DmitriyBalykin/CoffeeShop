@@ -1,15 +1,13 @@
-.container {
-    float: left;
+.sidebar {
     background: mediumslateblue;
-    height: 100%;
-
 }
 
 .btn-group a {
     background-color: palegreen;
     border: 1px solid green;
     color: brown;
-    padding:  10px 24px;
+    padding: 10px;
+    width: 100%;
     cursor: pointer;
     display: block;
 }
