@@ -10,6 +10,7 @@ import { OrderComponent } from './screens/order/order.component';
 import { OrdersqueueComponent } from './screens/ordersqueue/ordersqueue.component';
 import { StaffComponent } from './screens/staff/staff.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { OrdersService } from './orders.service';
 
 
 @NgModule({
@@ -26,7 +27,7 @@ import { AppRoutingModule } from './/app-routing.module';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [OrdersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

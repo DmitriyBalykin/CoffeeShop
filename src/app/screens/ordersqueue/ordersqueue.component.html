@@ -1,3 +1,7 @@
-<p>
-  ordersqueue works!
-</p>
+  <div ng-if="ordersService.getOrders().length > 0">Current orders:</div>
+  <table class="table">
+    <tr *ngFor="let order of ordersService.getOrders()">
+      <td>{{order.Value}}</td>
+      <td>{{order.Timestamp}}</td>
+    </tr>
+  </table>

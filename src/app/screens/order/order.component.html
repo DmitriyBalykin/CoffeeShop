@@ -1,3 +1,6 @@
-<p>
-  order works!
-</p>
+  <label for="NewOrder">New Order</label>
+  <input #NewOrder />
+  <button (click)="AddOrder(NewOrder.value)" class="btn btn-primary">Add Order</button>
+    <div>
+        <label>{{actionResult}}</label>
+    </div>
